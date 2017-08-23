@@ -7,8 +7,8 @@ https://www.python.org/
 https://www.continuum.io/downloads
 
 Install or update any required packages in the Anaconda terminal.  The numpy package and netCDF4 package can be installed by the commands:
-conda install numpy
-conda install -c anaconda netcdf4 
+pip install numpy
+pip install netcdf4 
 
 If any additional metadata needs to be added to the netCDF file, it can be added in the #global attributes section located at the end of the python file.  Open the file in a text editor and add the new information using the syntax nc.name = 'information'
 nc should not be changed, it is the identity of the netCDF file, name is the name of the variable, and information is the desired text.
